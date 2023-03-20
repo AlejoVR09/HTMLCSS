@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+}
+
+.reto_main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.img_container {
+    position: relative;
+    top: auto;
+    bottom: auto;
+}
+
+.img_card {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: 32%;
+}
+
+.name {
+    color: beige;
+    text-align: center;
+    font-size: 4.6rem;
+}
+
+.name_container {
+    position: relative;
+    bottom: 2rem;
+    left: 64%;
+    background-image: linear-gradient(140deg, #720918, #900e1d, #000);
+    width: 5rem;
+    height: 94rem;
+    box-shadow: 10px 10px 5px 0px rgb(83, 2, 2);
+}
+
+.description {
+    color: beige;
+    text-align: center;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description_container {
+    position: relative;
+    background-color: red;
+    top: auto;
+    bottom: 15rem;
+    left: 28%;
+    width: 30rem;
+    border-radius: 1rem;
+}
