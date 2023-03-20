@@ -1,0 +1,62 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 4.6rem;
+}
+
+ul>li {
+    font-weight: 700;
+    font-size: 3.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li>a {
+    font-weight: 700;
+    font-size: 2.6rem;
+    text-decoration: none;
+}
+
+img~figcaption {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header p {
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+nav {
+    background-color: aqua;
+    display: flex;
+}
+
+nav>a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+nav>a:hover {
+    background-color: blue;
+}
+
+figure .banano {
+    color: brown;
+    font-size: 2.6rem;
+}
