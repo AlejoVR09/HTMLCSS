@@ -15,12 +15,6 @@ body {
     margin: 0;
 }
 
-.reto_main {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
-
 .img_container {
     position: relative;
     top: auto;
@@ -31,7 +25,7 @@ body {
     position: absolute;
     top: auto;
     bottom: auto;
-    left: 32%;
+    left: 50%;
 }
 
 .name {
@@ -44,6 +38,7 @@ body {
     position: relative;
     bottom: 2rem;
     left: 64%;
+    right: 0%;
     background-image: linear-gradient(140deg, #720918, #900e1d, #000);
     width: 5rem;
     height: 94rem;
@@ -61,8 +56,14 @@ body {
     position: relative;
     background-color: red;
     top: auto;
-    bottom: 15rem;
+    bottom: 12rem;
     left: 28%;
+    right: 0%;
     width: 30rem;
     border-radius: 1rem;
+}
+
+.img_container {
+    position: relative;
+    width: 120rem;
 }
