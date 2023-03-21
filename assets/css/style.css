@@ -61,3 +61,36 @@ figure .banano {
     color: brown;
     font-size: 2.6rem;
 }
+
+.atributes_container {
+    background-color: blue;
+    display: inline-block;
+}
+
+.atributes {
+    width: 30rem;
+    height: 20rem;
+    background-color: aquamarine;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.main_character {
+    display: inline-block;
+    background-color: red;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.layout {
+    position: relative;
+    display: inline-block;
+    border: solid black;
+    width: 100%;
+}
+
+footer {
+    margin: 2rem;
+}

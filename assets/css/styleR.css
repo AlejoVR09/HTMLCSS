@@ -15,17 +15,17 @@ body {
     margin: 0;
 }
 
-.img_container {
-    position: relative;
-    top: auto;
-    bottom: auto;
+.container {
+    width: 60rem;
+    margin: 0 auto;
 }
 
 .img_card {
     position: absolute;
     top: auto;
     bottom: auto;
-    left: 50%;
+    left: auto;
+    right: auto;
 }
 
 .name {
@@ -37,11 +37,10 @@ body {
 .name_container {
     position: relative;
     bottom: 2rem;
-    left: 64%;
-    right: 0%;
-    background-image: linear-gradient(140deg, #720918, #900e1d, #000);
+    left: 100%;
     width: 5rem;
     height: 94rem;
+    background-image: linear-gradient(140deg, #720918, #900e1d, #000);
     box-shadow: 10px 10px 5px 0px rgb(83, 2, 2);
 }
 
@@ -57,8 +56,7 @@ body {
     background-color: red;
     top: auto;
     bottom: 12rem;
-    left: 28%;
-    right: 0%;
+    left: 0;
     width: 30rem;
     border-radius: 1rem;
 }
