@@ -22,6 +22,7 @@ ul>li {
     font-weight: 700;
     font-size: 3.6rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem;
 }
 
 li>a {
@@ -62,13 +63,55 @@ figure .banano {
     font-size: 2.6rem;
 }
 
+.main_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list_ul {
+    display: block;
+    list-style: none;
+}
+
+.img_shop {
+    width: 30rem;
+    height: 30rem;
+}
+
+.img_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video_container {
+    width: 100%;
+    text-align: center;
+}
+
+.video_container video {
+    width: 50rem;
+    height: 30rem;
+}
+
+.main_container {
+    margin: 0 auto;
+    max-width: 120rem;
+    text-align: center;
+}
+
+
+/* Reto 2 */
+
 .atributes_container {
     background-color: blue;
     display: inline-block;
+    padding: 1rem;
+    border: solid black;
 }
 
 .atributes {
-    width: 30rem;
+    width: 35rem;
     height: 20rem;
     background-color: aquamarine;
     margin: 2rem;
@@ -79,18 +122,18 @@ figure .banano {
     display: inline-block;
     background-color: red;
     padding: 1rem;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    border: solid black;
 }
 
 .layout {
-    position: relative;
     display: inline-block;
-    border: solid black;
     width: 100%;
 }
 
 footer {
     margin: 2rem;
+}
+
+.header_menu p {
+    display: inline-block;
 }
